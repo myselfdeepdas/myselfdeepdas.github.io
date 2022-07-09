@@ -319,8 +319,8 @@ Hero Area
 }
 .social-icons {
   position: absolute;
-  bottom: 1%;
-  left: 5%;
+  bottom: -3%;
+  right:35%;
 }
 .social-icons .icon {
   cursor: pointer;
@@ -620,3 +620,13 @@ footer p span {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+@media screen and (max-width:786px) {
+   .mobile-deep{
+
+    margin-top:2rem;
+    margin-left:2rem;
+  }
+  
+}
